@@ -1,7 +1,6 @@
 import React from "react";
 
-export default function Main(props) {
-  const { name, total, isAmazing, fruit } = props;
+function Main({ name, total, isAmazing, fruit }) {
   return (
     <main>
       <h1>Hello {name}</h1>
@@ -10,3 +9,5 @@ export default function Main(props) {
     </main>
   )
 }
+
+export default Main;
